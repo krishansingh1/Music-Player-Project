@@ -38,7 +38,7 @@ p {
 #navbar {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 3rem;
+  margin: 2rem 3.5rem;
 }
 
 .navbar-logo ul li {
@@ -111,19 +111,24 @@ input::placeholder {
   padding-left: 10px;
 }
 
-.bell-icon{
-    position: relative;  
-    left: 3rem;
-    top: 3px;
+.bell-icon {
+  position: relative;
+  left: 3rem;
+  top: 3px;
 }
 
-.bell-icon i{
-    font-size: 1.5rem;
+.bell-icon i {
+  font-size: 1.5rem;
 }
 
-.bell-icon i::after{
-  border: 1px solid red;  
+.bell-icon::after {
+  content: "";
+  position: absolute;
   border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
+  left: 13px;
+  top: 2px;
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: red;
+  z-index: 1;
 }
