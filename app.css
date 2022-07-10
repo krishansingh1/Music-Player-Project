@@ -86,7 +86,7 @@ li span:nth-child(2) {
 
 .search-bar {
   border: 1px solid none;
-  border-radius: 0.5rem;
+  border-radius: 0.6rem;
   background-color: #12193e;
   padding: 10px 10px;
   width: 23rem;
