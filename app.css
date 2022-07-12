@@ -14,6 +14,7 @@
 
 body {
   background-color: #0c1027;
+  height: 200vh;
 }
 
 /*
@@ -159,7 +160,7 @@ Main Section
 
 .more-left {
   position: relative;
-  left: 23rem;
+  left: 22rem;
   top: -2.5rem;
 }
 
@@ -199,4 +200,77 @@ Main Section
 
 .font-styles-3 {
   font-size: 0.7rem;
+}
+
+/*
+=============
+ Music List Section 
+=============
+*/
+
+#music-list-section {
+  width: 58%;
+  position: relative;
+  left: 8%;
+  top: 2rem;
+}
+
+.music-list-items {
+  background-color: #1a1e33;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+  display: flex;
+  height: 3.7rem;
+  padding: 1rem 0.5rem;
+}
+
+.song-number {
+  color: #93a8b3;
+  margin-right: 0.8rem;
+  font-family: var(--var-font-family-2);
+  font-size: 0.8rem;
+  position: relative;
+  top: 0.3rem;
+}
+
+.song-img {
+  position: relative;
+  height: 2.6rem;
+  top: -0.5rem;
+  margin-right: 0.8rem;
+}
+
+.artist-song-style {
+  position: relative;
+  top: -0.3rem;
+  font-size: 0.9rem;
+  font-family: var(--var-font-family-2);
+}
+
+.artist-name-style {
+  position: relative;
+  left: -3.1rem;
+  top: 0.8rem;
+}
+
+.song-time {
+  color: #93a8b3;
+  font-family: var(--var-font-family-2);
+  font-size: 0.8rem;
+  position: relative;
+  left: 8rem;
+}
+
+.song-icons {
+  position: relative;
+  left: 29rem;
+  margin-left: 1.6rem;
+  color: #93a8b3;
+  font-size: 1.2rem;
+}
+
+.icon-size {
+  position: relative;
+  font-size: 1.9rem;
+  top: -0.4rem;
 }
