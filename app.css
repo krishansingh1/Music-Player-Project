@@ -142,6 +142,7 @@ Main Section
 #artist-info {
   position: relative;
   left: 8%;
+  top: 1rem;
   display: flex;
   background-color: #141b41;
   width: 58%;
@@ -149,4 +150,21 @@ Main Section
 
 #artist-info img {
   width: 18rem;
+}
+
+#artist-details {
+  padding: 3.5rem 1.5rem;
+}
+
+.more-left {
+  position: relative;
+  left: 23rem;
+  top: -2.5rem;
+}
+
+.font-styles {
+  font-size: 0.8rem;
+  font-weight: light;
+  color: lightgray;
+  line-height: 1.4;
 }
