@@ -397,3 +397,7 @@ Aside Section
   width: 25%;
   margin-left: 68%;
 }
+
+.aside-section-2-songs {
+  display: flex;
+}
