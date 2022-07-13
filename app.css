@@ -258,7 +258,7 @@ Main Section
   font-family: var(--var-font-family-2);
   font-size: 0.8rem;
   position: relative;
-  left: 8rem;
+  left: 10rem;
 }
 
 .song-icons {
@@ -286,7 +286,7 @@ Main Section
   font-family: var(--var-font-family-2);
   font-size: 0.8rem;
   position: relative;
-  left: 1rem;
+  left: 3rem;
 }
 
 .song-icons-2 {
@@ -315,7 +315,7 @@ Main Section
   font-family: var(--var-font-family-2);
   font-size: 0.8rem;
   position: relative;
-  left: -0.7rem;
+  left: 1.3rem;
 }
 
 .song-icons-3 {
