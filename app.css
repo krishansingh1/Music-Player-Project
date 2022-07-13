@@ -220,6 +220,7 @@ Main Section
   border-radius: 5px;
   margin-bottom: 0.6rem;
   display: flex;
+  justify-content: space-between;
   height: 3.7rem;
   padding: 1rem 0.5rem;
 }
@@ -240,30 +241,16 @@ Main Section
   margin-right: 0.8rem;
 }
 
-.artist-song-style {
-  position: relative;
-  top: -0.3rem;
-  font-size: 0.9rem;
-  font-family: var(--var-font-family-2);
-}
-
-.artist-name-style {
-  position: relative;
-  left: -3.1rem;
-  top: 0.8rem;
-}
-
 .song-time {
   color: #93a8b3;
   font-family: var(--var-font-family-2);
   font-size: 0.8rem;
   position: relative;
-  left: 8rem;
+  /* left: 8rem; */
 }
 
 .song-icons {
   position: relative;
-  left: 29rem;
   margin-left: 1.6rem;
   color: #93a8b3;
   font-size: 1.2rem;
@@ -273,10 +260,4 @@ Main Section
   position: relative;
   font-size: 1.9rem;
   top: -0.4rem;
-}
-
-.artist-name-style-2{
-  position: relative;
-  left: -6.9rem;
-  top: 0.8rem;
 }
