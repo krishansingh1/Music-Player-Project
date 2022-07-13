@@ -272,5 +272,60 @@ Main Section
 .icon-size {
   position: relative;
   font-size: 1.9rem;
-  top: -0.4rem;
+  top: -0.45rem;
+}
+
+.artist-name-style-2 {
+  position: relative;
+  top: 1rem;
+  left: -6.85rem;
+}
+
+.song-time-2 {
+  color: #93a8b3;
+  font-family: var(--var-font-family-2);
+  font-size: 0.8rem;
+  position: relative;
+  left: 1rem;
+}
+
+.song-icons-2 {
+  position: relative;
+  margin-left: 1.6rem;
+  color: #93a8b3;
+  font-size: 1.2rem;
+  top: -0.1rem;
+  left: 22rem;
+}
+
+.icon-size-2 {
+  position: relative;
+  font-size: 1.9rem;
+  top: -0.55rem;
+}
+
+/*New Approach*/
+
+.music-list-items-2 {
+  background-color: #1a1e33;
+  border-radius: 5px;
+  margin-bottom: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  height: 3.7rem;
+  padding: 1rem 0.5rem;
+}
+
+.song-number-2 {
+  color: #93a8b3;
+  margin-right: 0.5rem;
+  font-family: var(--var-font-family-2);
+  font-size: 0.8rem;
+  position: relative;
+  top: -1.4rem;
+}
+
+.song-info-left{
+  position: relative;
+  left: -8rem;
 }
