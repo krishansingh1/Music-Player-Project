@@ -140,6 +140,9 @@ input::placeholder {
 Main Section
 ==============
 */
+main {
+  display: inline-block;
+}
 
 #artist-info {
   position: relative;
@@ -338,3 +341,59 @@ Main Section
 Aside Section
 ============
 */
+
+#aside-section-1 {
+  display: inline-block;
+  position: relative;
+  top: -50.9rem;
+  width: 25%;
+  margin-left: 68%;
+  /* border: 1px solid red; */
+}
+
+.aside-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside-heading p {
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+.aside-section-songs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.7rem;
+}
+
+.aside-section-img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 3px;
+}
+
+.aside-section-artist-info {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: -1.8rem;
+}
+
+.aside-section-artist-name {
+  font-size: 0.9rem;
+  font-family: var(--var-font-family-2);
+  margin-bottom: 1rem;
+}
+
+.aside-section-song-info span {
+  font-size: 1.4rem;
+  margin-left: 0.5rem;
+  color: #90a5af;
+}
+
+#aside-section-2 {
+  display: inline-block;
+  position: relative;
+  /* top: -50.9rem; */
+  width: 25%;
+  margin-left: 68%;
+}
