@@ -34,8 +34,7 @@ p {
   line-height: 1.2;
 }
 
-@media screen and (max-width: 800px) {
-}
+@media screen and (max-width: 800px) {}
 
 /*Navbar*/
 
@@ -361,6 +360,7 @@ Aside Section
   margin-top: 0.3rem;
   margin-bottom: 1rem;
 }
+
 .aside-section-songs {
   display: flex;
   justify-content: space-between;
@@ -441,7 +441,6 @@ Footer Section
   position: sticky;
   bottom: 0;
   height: 4rem;
-  /* z-index: 1; */
 }
 
 .footer-content {
