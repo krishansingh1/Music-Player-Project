@@ -413,12 +413,22 @@ Aside Section
   top: -1.5rem;
 }
 
-.aside-song-info{
+.aside-song-info {
   position: relative;
   left: -5.5rem;
 }
 
-.aside-song-2-info{
+.aside-song-2-info {
   position: relative;
   left: -3.6rem;
+}
+
+.aside-song-3-info {
+  position: relative;
+  left: -4.9rem;
+}
+
+.song-icons-4{
+  color: #93a8b3;
+  font-size: 1.2rem;
 }
