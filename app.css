@@ -437,7 +437,8 @@ Footer Section
 */
 
 #footer-section {
-  color: white;
-  margin-top: -30rem;
-  overflow: hidden;
+  background-color: #282828;
+  display: flex;
+  position: sticky;
+  z-index: 1;
 }
