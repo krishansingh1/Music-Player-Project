@@ -143,7 +143,9 @@ Main Section
 ==============
 */
 main {
+  width: 57.6%;
   display: inline-block;
+  margin-left: 2.5rem;
 }
 
 #artist-info {
@@ -152,7 +154,6 @@ main {
   top: 1rem;
   display: flex;
   background-color: #141b41;
-  width: 58%;
 }
 
 #artist-info img {
@@ -217,7 +218,7 @@ main {
   position: relative;
   left: 8%;
   top: 2rem;
-  width: 58%;
+  /* width: 58%; */
 }
 
 .music-list-items {
@@ -343,6 +344,12 @@ main {
 Aside Section
 ============
 */
+/* #aside-container {
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+  margin-left: 68%;
+} */
 
 #aside-section-1 {
   display: inline-block;
@@ -350,8 +357,6 @@ Aside Section
   top: -51.3rem;
   width: 25%;
   margin-left: 68%;
-  /* border: 1px solid red; */
-  /* overflow: hidden; */
 }
 
 .aside-heading {
@@ -399,6 +404,7 @@ Aside Section
   top: -48.8rem;
   width: 25%;
   margin-left: 68%;
+  overflow: 0;
 }
 
 .aside-section-2-songs {
