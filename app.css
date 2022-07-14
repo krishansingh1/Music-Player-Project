@@ -14,7 +14,9 @@
 
 body {
   background-color: #0c1027;
-  height: 170vh;
+  /* margin: 0;
+  padding: 0; */
+  /* overflow-y: hidden; */
 }
 
 /*
@@ -212,10 +214,10 @@ main {
 */
 
 #music-list-section {
-  width: 58%;
   position: relative;
   left: 8%;
   top: 2rem;
+  width: 58%;
 }
 
 .music-list-items {
@@ -349,6 +351,7 @@ Aside Section
   width: 25%;
   margin-left: 68%;
   /* border: 1px solid red; */
+  /* overflow: hidden; */
 }
 
 .aside-heading {
@@ -393,7 +396,7 @@ Aside Section
 #aside-section-2 {
   display: inline-block;
   position: relative;
-  top: -48.7rem;
+  top: -48.8rem;
   width: 25%;
   margin-left: 68%;
 }
@@ -428,7 +431,7 @@ Aside Section
   left: -4.9rem;
 }
 
-.song-icons-4{
+.song-icons-4 {
   color: #93a8b3;
   font-size: 1.2rem;
 }
