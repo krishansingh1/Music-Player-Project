@@ -461,3 +461,23 @@ Footer Section
   font-weight: light;
   margin-right: 5px;
 }
+
+/* .audio {
+  display: block;
+  width: 10px;
+} */
+
+.bar-1 {
+  height: 3px;
+  background: #333;
+}
+
+.bar-2 {
+  position: relative;
+  bottom: 37.3%;
+  left: 8%;
+  cursor: pointer;
+  width: 220px;
+  height: 3px;
+  background: #ff4200;
+}
