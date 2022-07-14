@@ -345,7 +345,7 @@ Aside Section
 #aside-section-1 {
   display: inline-block;
   position: relative;
-  top: -50.9rem;
+  top: -51.3rem;
   width: 25%;
   margin-left: 68%;
   /* border: 1px solid red; */
@@ -393,11 +393,32 @@ Aside Section
 #aside-section-2 {
   display: inline-block;
   position: relative;
-  top: -49rem;
+  top: -48.7rem;
   width: 25%;
   margin-left: 68%;
 }
 
 .aside-section-2-songs {
   display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+.aside-song-number {
+  color: #93a8b3;
+  margin-right: 0.5rem;
+  font-family: var(--var-font-family-2);
+  font-size: 0.8rem;
+  position: relative;
+  top: -1.5rem;
+}
+
+.aside-song-info{
+  position: relative;
+  left: -5.5rem;
+}
+
+.aside-song-2-info{
+  position: relative;
+  left: -3.6rem;
 }
