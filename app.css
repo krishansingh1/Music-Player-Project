@@ -451,3 +451,14 @@ Footer Section
   /* left: 3rem; */
   margin-left: 6.4rem;
 }
+
+.footer-icons {
+  margin-left: 1.2rem;
+  margin-top: -2px;
+}
+
+.footer-icons span i {
+  color: #90a5af;
+  font-weight: light;
+  margin-right: 5px;
+}
