@@ -275,8 +275,8 @@ main {
 
 .icon-size {
   position: relative;
-  font-size: 1.9rem;
-  top: -0.45rem;
+  font-size: 1.3rem;
+  top: -0.1rem;
 }
 
 .artist-name-style-2 {
@@ -302,12 +302,6 @@ main {
   left: 22rem;
 }
 
-.icon-size-2 {
-  position: relative;
-  font-size: 1.9rem;
-  top: -0.55rem;
-}
-
 .artist-name-style-3 {
   position: relative;
   top: 1rem;
@@ -329,12 +323,6 @@ main {
   font-size: 1.2rem;
   top: -0.1rem;
   left: 20.4rem;
-}
-
-.icon-size-3 {
-  position: relative;
-  font-size: 1.9rem;
-  top: -0.55rem;
 }
 
 /*
@@ -441,6 +429,7 @@ Footer Section
   position: sticky;
   bottom: 0;
   height: 4rem;
+  overflow: hidden;
 }
 
 .footer-content {
@@ -462,22 +451,70 @@ Footer Section
   margin-right: 5px;
 }
 
-/* .audio {
-  display: block;
-  width: 10px;
-} */
-
-.bar-1 {
-  height: 3px;
-  background: #333;
+.music-icons {
+  color: white;
+  font-size: 0.8rem;
+  margin-left: 13rem;
+  position: relative;
+  top: -0.9rem;
 }
 
-.bar-2 {
+.music-icons span {
+  padding-right: 2rem;
+}
+
+.music-icons span:nth-child(3) {
+  font-size: 1.7rem;
   position: relative;
-  bottom: 37.3%;
-  left: 8%;
-  cursor: pointer;
-  width: 220px;
+  top: 0.45rem;
+}
+
+.music-audio {
+  position: relative;
+  left: -5rem;
+  width: 23rem;
+  top: 0.5rem;
   height: 3px;
-  background: #ff4200;
+}
+
+.music-time span:nth-child(1) {
+  position: relative;
+  left: -7rem;
+  top: -0.4rem;
+  font-size: 0.75rem;
+  font-family: var(--var-font-family-2);
+}
+
+.music-time span:nth-child(2) {
+  position: relative;
+  left: 15.5rem;
+  top: -0.4rem;
+  font-size: 0.8rem;
+  font-family: var(--var-font-family-2);
+}
+
+.audio-controls {
+  position: relative;
+  left: 7rem;
+  top: -0.2rem;
+  font-size: 0.9rem;
+}
+
+.audio-controls span {
+  padding-right: 0.8rem;
+  color: white;
+}
+
+.volume-control {
+  width: 5rem;
+  height: 3px;
+  position: relative;
+  top: -0.25rem;
+}
+
+.last-icon {
+  position: relative;
+  left: 8rem;
+  top: -0.25rem;
+  color: white;
 }
