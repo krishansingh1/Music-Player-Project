@@ -14,7 +14,7 @@
 
 body {
     background-color: #0c1027;
-    height: 200vh;
+    height: 250vh;
 }
 
 /*
@@ -308,4 +308,31 @@ main {
     position: relative;
     left: -0.5rem;
     top: -3.5rem;
+}
+
+.music-category-section {
+    display: flex;
+}
+
+.music-category-section figure img {
+    width: 15.4rem;
+    height: 9.5rem;
+    margin-right: 1rem;
+    opacity: 0.6;
+}
+
+.music-category-section figure img:hover{
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+}
+
+.music-category-section figure figcaption {
+    font-family: var(--var-font-family);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: -0.5rem;
+    top: -6rem;
 }
