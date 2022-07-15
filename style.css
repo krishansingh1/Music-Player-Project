@@ -14,6 +14,7 @@
 
 body {
     background-color: #0c1027;
+    height: 150vh;
 }
 
 /*
@@ -183,13 +184,25 @@ main {
     transition: all 0.7s ease-in-out;
 }
 
-#latest-release-section {
+
+.music-player-sections {
     margin-left: 6rem;
     margin-top: 2rem;
 }
 
+.sections-heading {
+    margin-bottom: 1rem;
+}
+
+#latest-section-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .latest-release-songs {
     display: flex;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .latest-release-section-img {
@@ -201,11 +214,51 @@ main {
 .latest-release-section-artist-info {
     margin-top: 1.5rem;
     margin-bottom: 0.5rem;
-    margin-left: 1.8rem;
+    margin-left: 1.5rem;
 }
 
 .latest-release-section-artist-name {
     font-size: 0.9rem;
     font-family: var(--var-font-family-2);
-    margin-bottom: 1rem;
+}
+
+.font-styles {
+    font-size: 0.8rem;
+    font-weight: light;
+    color: gray;
+    font-family: var(--var-font-family-2);
+}
+
+.latest-release-section-song-info {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 6rem;
+}
+
+.latest-release-section-song-info span i {
+    font-size: 1rem;
+    margin-left: 0.8rem;
+    color: #90a5af;
+}
+
+.popular-artist-section-imgs {
+    display: flex;
+}
+
+.popular-artist-section-imgs figure img {
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    margin-right: 1.3rem;
+    border-radius: 50%;
+}
+
+.popular-artist-section-imgs figure figcaption {
+    font-family: var(--var-font-family);
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: -0.5rem;
 }
