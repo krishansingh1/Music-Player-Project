@@ -14,9 +14,6 @@
 
 body {
     background-color: #0c1027;
-    /* margin: 0;
-    padding: 0; */
-    /* overflow-y: hidden; */
 }
 
 /*
@@ -134,4 +131,52 @@ input::placeholder {
     height: 0.5rem;
     background-color: red;
     z-index: 1;
+}
+
+/*
+=============
+Main
+=============
+*/
+
+/*
+PlayList Section
+*/
+
+#playlist-section {
+    width: 60%;
+    display: flex;
+    margin-left: 4rem;
+    margin-top: 3.5rem;
+}
+
+.song-playlist img {
+    padding-left: 3rem;
+}
+
+.song-playlist img:nth-child(1) {
+    width: 16.5rem;
+}
+
+.song-playlist img:nth-child(1):hover {
+    transform: scale(1.2);
+    transition: all 0.7s ease-in-out;
+}
+
+.song-playlist img:nth-child(2) {
+    width: 16.5rem;
+}
+
+.song-playlist img:nth-child(2):hover {
+    transform: scale(1.2);
+    transition: all 0.7s ease-in-out;
+}
+
+.song-playlist img:nth-child(3) {
+    width: 16.5rem;
+}
+
+.song-playlist img:nth-child(3):hover {
+    transform: scale(1.2);
+    transition: all 0.7s ease-in-out;
 }
