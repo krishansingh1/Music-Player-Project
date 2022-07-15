@@ -142,9 +142,11 @@ Main
 /*
 PlayList Section
 */
+main {
+    width: 64.5%;
+}
 
 #playlist-section {
-    width: 60%;
     display: flex;
     margin-left: 4rem;
     margin-top: 3.5rem;
@@ -179,4 +181,31 @@ PlayList Section
 .song-playlist img:nth-child(3):hover {
     transform: scale(1.2);
     transition: all 0.7s ease-in-out;
+}
+
+#latest-release-section {
+    margin-left: 6rem;
+    margin-top: 2rem;
+}
+
+.latest-release-songs {
+    display: flex;
+}
+
+.latest-release-section-img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 3px;
+}
+
+.latest-release-section-artist-info {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1.8rem;
+}
+
+.latest-release-section-artist-name {
+    font-size: 0.9rem;
+    font-family: var(--var-font-family-2);
+    margin-bottom: 1rem;
 }
