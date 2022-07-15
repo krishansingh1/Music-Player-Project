@@ -315,15 +315,15 @@ main {
 }
 
 .music-category-section figure img {
-    width: 15.4rem;
+    width: 15.45rem;
     height: 9.5rem;
     margin-right: 1rem;
     opacity: 0.6;
 }
 
-.music-category-section figure img:hover{
-  transition: all 0.5s ease-in-out;
-  transform: scale(1.1);
+.music-category-section figure img:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.1);
 }
 
 .music-category-section figure figcaption {
@@ -335,4 +335,24 @@ main {
     position: relative;
     left: -0.5rem;
     top: -6rem;
+}
+
+.new-class {
+    margin-top: 0.5rem;
+}
+
+.latest-english-release-songs {
+    display: flex;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.latest-english-release-section-artist-info {
+    margin-right: 2.45rem;
+}
+
+.latest-english-release-section-artist-name {
+    padding: 0.3rem 0;
+    font-size: 0.8rem;
+    font-family: var(--var-font-family-2);
 }
