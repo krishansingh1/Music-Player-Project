@@ -596,3 +596,115 @@ Footer Section
     top: -0.1rem;
     color: white;
 }
+
+
+/*
+============
+Responsive
+============
+*/
+
+/*Song Playlist Section*/
+
+@media screen and (max-width:1400px) {
+    .song-playlist img:nth-child(1) {
+        width: 14.5rem;
+    }
+
+    .song-playlist img:nth-child(2) {
+        width: 14.5rem;
+    }
+
+    .song-playlist img:nth-child(3) {
+        width: 14.5rem;
+    }
+}
+
+@media screen and (max-width:1208px) {
+    .song-playlist img:nth-child(1) {
+        width: 12.5rem;
+    }
+
+    .song-playlist img:nth-child(2) {
+        width: 12.5rem;
+    }
+
+    .song-playlist img:nth-child(3) {
+        width: 12.5rem;
+    }
+}
+
+@media screen and (max-width:1060px) {
+    .song-playlist img:nth-child(1) {
+        width: 10.5rem;
+    }
+
+    .song-playlist img:nth-child(2) {
+        width: 10.5rem;
+    }
+
+    .song-playlist img:nth-child(3) {
+        width: 10.5rem;
+    }
+}
+
+@media screen and (max-width:910px) {
+    .song-playlist img:nth-child(1) {
+        width: 9.5rem;
+    }
+
+    .song-playlist img:nth-child(2) {
+        width: 9.5rem;
+    }
+
+    .song-playlist img:nth-child(3) {
+        width: 9.5rem;
+    }
+}
+
+@media screen and (max-width:836px) {
+    .song-playlist img {
+        display: block;
+        padding-bottom: 1rem;
+    }
+}
+
+
+/*Popular Artist Section*/
+
+@media screen and (max-width:1360px) {
+    .popular-artist-section-imgs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .popular-artist-section-imgs figure {
+        padding-bottom: 1rem;
+    }
+}
+
+/*Music Stations section*/
+
+@media screen and (max-width:1344px) {
+    .radio-player {
+        display: flex;
+        flex-wrap: wrap;
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width:761px) {
+    .radio-player {
+        display: flex;
+        flex-wrap: wrap;
+        height: 24rem;
+    }
+}
+
+@media screen and (max-width:612px) {
+    .radio-player {
+        display: flex;
+        flex-wrap: wrap;
+        height: 32rem;
+    }
+}
