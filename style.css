@@ -928,17 +928,13 @@ Responsive
     }
 }
 
-@media screen and (max-width:1306px) {
+@media screen and (max-width:1308px) {
     .artist-song-style {
         font-size: 0.8rem;
     }
 
     .font-styles {
         font-size: 0.6rem;
-    }
-
-    .footer-icons {
-        margin-left: -0.2rem;
     }
 
     .footer-icons span i {
@@ -952,5 +948,39 @@ Responsive
     .music-icons span:nth-child(3) {
         font-size: 1.5rem;
         margin-top: -1rem;
+    }
+
+    .music-audio {
+        position: relative;
+        left: -3.5rem;
+        width: 20rem;
+        top: 0.5rem;
+        height: 1px;
+    }
+
+    .music-time span:nth-child(1) {
+        position: relative;
+        left: -5.5rem;
+        top: -0.2rem;
+        font-size: 0.6rem;
+    }
+
+    .music-time span:nth-child(2) {
+        position: relative;
+        left: 14rem;
+        top: -0.2rem;
+        font-size: 0.6rem;
+    }
+
+    .audio-controls {
+        position: relative;
+        left: 10rem;
+        font-size: 0.7rem;
+    }
+
+    .last-icon {
+        position: relative;
+        left: 11rem;
+        font-size: 0.7rem;
     }
 }
