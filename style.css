@@ -748,7 +748,7 @@ Responsive
 
 /*Aside Section*/
 
-@media screen and (max-width:1260px) {
+@media screen and (max-width:1340px) {
     .aside-song-info {
         position: relative;
         left: -5.5rem;
@@ -763,5 +763,167 @@ Responsive
     .aside-song-3-info {
         position: relative;
         left: -4.9rem;
+    }
+}
+
+@media screen and (max-width:1225px) {
+    .aside-song-info {
+        position: relative;
+        left: -5.1rem;
+        top: -0.1rem;
+    }
+
+    .aside-song-2-info {
+        position: relative;
+        left: -3.2rem;
+    }
+
+    .aside-song-3-info {
+        position: relative;
+        left: -4.5rem;
+    }
+}
+
+@media screen and (max-width:1175px) {
+    .aside-song-info {
+        position: relative;
+        left: -5rem;
+        top: -0.1rem;
+    }
+
+    .aside-song-2-info {
+        position: relative;
+        left: -3rem;
+    }
+
+    .aside-song-3-info {
+        position: relative;
+        left: -4.4rem;
+    }
+}
+
+@media screen and (max-width:1130px) {
+    .aside-song-info {
+        position: relative;
+        left: -4.5rem;
+        top: -0.1rem;
+    }
+
+    .aside-song-2-info {
+        position: relative;
+        left: -2.6rem;
+    }
+
+    .aside-song-3-info {
+        position: relative;
+        left: -4rem;
+    }
+}
+
+
+@media screen and (max-width:1030px) {
+    .aside-song-info {
+        position: relative;
+        left: -3.9rem;
+        top: -0.1rem;
+    }
+
+    .aside-song-2-info {
+        position: relative;
+        left: -2rem;
+    }
+
+    .aside-song-3-info {
+        position: relative;
+        left: -3.4rem;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .aside-song-info {
+        position: relative;
+        left: -3.5rem;
+        top: -0.1rem;
+    }
+
+    .aside-song-2-info {
+        position: relative;
+        left: -1.6rem;
+    }
+
+    .aside-song-3-info {
+        position: relative;
+        left: -3rem;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .aside-song-info {
+        position: relative;
+        left: -3rem;
+        top: -0.1rem;
+    }
+
+    .aside-song-2-info {
+        position: relative;
+        left: -1.2rem;
+    }
+
+    .aside-song-3-info {
+        position: relative;
+        left: -2.5rem;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .aside-song-info {
+        position: relative;
+        left: -2.5rem;
+        top: -0.1rem;
+    }
+
+    .aside-song-2-info {
+        position: relative;
+        left: -1.1rem;
+    }
+
+    .aside-song-3-info {
+        position: relative;
+        left: -2rem;
+    }
+
+    .artist-song-style {
+        font-size: 0.7rem;
+    }
+
+    .font-styles {
+        font-size: 0.6rem;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .aside-song-info {
+        position: relative;
+        left: -1.5rem;
+        top: -0.1rem;
+    }
+
+    .aside-song-2-info {
+        position: relative;
+        left: -0.5rem;
+    }
+
+    .aside-song-3-info {
+        position: relative;
+        left: -1.2rem;
+    }
+
+    .artist-song-style {
+        font-size: 0.7rem;
+    }
+
+    .font-styles {
+        font-size: 0.5rem;
     }
 }
