@@ -1111,4 +1111,38 @@ Responsive
         top: -0.2rem;
         font-size: 0.6rem;
     }
+
+    .volume-control {
+        position: relative;
+        left: -0.5rem;
+        width: 2rem;
+    }
+
+    .audio-controls {
+        position: relative;
+        left: -2rem;
+    }
+
+    .last-icon {
+        position: relative;
+        left: -2rem;
+    }
+}
+
+@media screen and (max-width:984px) {
+    .audio-controls {
+        position: relative;
+        left: -5rem;
+    }
+
+    .volume-control {
+        position: relative;
+        left: -0.5rem;
+        width: 1rem;
+    }
+
+    .last-icon {
+        position: relative;
+        left: -5rem;
+    }
 }
