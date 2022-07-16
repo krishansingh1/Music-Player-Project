@@ -606,7 +606,7 @@ Responsive
 
 /*Song Playlist Section*/
 
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1360px) {
     .song-playlist img:nth-child(1) {
         width: 14.5rem;
     }
@@ -669,6 +669,20 @@ Responsive
     }
 }
 
+/*Latest Release Section*/
+@media screen and (max-width:757px) {
+    .latest-release-section-artist-name {
+        font-size: 0.7rem;
+    }
+
+    .font-styles {
+        font-size: 0.6rem;
+    }
+
+    .latest-release-section-song-info span i {
+        font-size: 0.7rem;
+    }
+}
 
 /*Popular Artist Section*/
 
@@ -706,5 +720,48 @@ Responsive
         display: flex;
         flex-wrap: wrap;
         height: 32rem;
+    }
+}
+
+/*Music Category Section*/
+
+@media screen and (max-width:1300px) {
+    .music-category-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/*Latest English Section*/
+
+@media screen and (max-width:1300px) {
+    .latest-english-release-songs {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .latest-english-release-section-artist-info {
+        padding-bottom: 1rem;
+    }
+}
+
+
+/*Aside Section*/
+
+@media screen and (max-width:1260px) {
+    .aside-song-info {
+        position: relative;
+        left: -5.5rem;
+        top: -0.1rem;
+    }
+
+    .aside-song-2-info {
+        position: relative;
+        left: -3.6rem;
+    }
+
+    .aside-song-3-info {
+        position: relative;
+        left: -4.9rem;
     }
 }
