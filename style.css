@@ -1020,6 +1020,34 @@ Responsive
     }
 }
 
-@media screen and (max-width:1135px){
-    
+@media screen and (max-width:1135px) {
+    .song-img {
+        position: relative;
+        left: -2rem;
+    }
+
+    .song-details {
+        position: relative;
+        left: -2rem;
+    }
+
+    .footer-icons {
+        position: relative;
+        left: -2rem;
+    }
+
+    .music-icons {
+        position: relative;
+        left: -2rem;
+    }
+
+    .audio-controls {
+        position: relative;
+        left: 4rem;
+    }
+
+    .last-icon {
+        position: relative;
+        left: 5rem;
+    }
 }
