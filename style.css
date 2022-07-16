@@ -927,3 +927,30 @@ Responsive
         font-size: 0.5rem;
     }
 }
+
+@media screen and (max-width:1306px) {
+    .artist-song-style {
+        font-size: 0.8rem;
+    }
+
+    .font-styles {
+        font-size: 0.6rem;
+    }
+
+    .footer-icons {
+        margin-left: -0.2rem;
+    }
+
+    .footer-icons span i {
+        font-size: 0.8rem;
+    }
+
+    .music-icons {
+        font-size: 0.7rem;
+    }
+
+    .music-icons span:nth-child(3) {
+        font-size: 1.5rem;
+        margin-top: -1rem;
+    }
+}
