@@ -1038,16 +1038,48 @@ Responsive
 
     .music-icons {
         position: relative;
-        left: -2rem;
+        left: -5rem;
     }
 
     .audio-controls {
         position: relative;
-        left: 4rem;
+        left: 2rem;
     }
 
     .last-icon {
         position: relative;
-        left: 5rem;
+        left: 3rem;
+    }
+}
+
+@media screen and (max-width:1085px) {
+    .song-img {
+        position: relative;
+        left: -5rem;
+    }
+
+    .song-details {
+        position: relative;
+        left: -5rem;
+    }
+
+    .footer-icons {
+        position: relative;
+        left: -6rem;
+    }
+
+    .music-icons {
+        position: relative;
+        left: -7rem;
+    }
+
+    .audio-controls {
+        position: relative;
+        left: -0.9rem;
+    }
+
+    .last-icon {
+        position: relative;
+        left: 0.1rem;
     }
 }
