@@ -978,9 +978,44 @@ Responsive
         font-size: 0.7rem;
     }
 
+    .volume-control {
+        width: 3rem;
+        height: 1px;
+    }
+
     .last-icon {
         position: relative;
         left: 11rem;
         font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width:1220px) {
+
+    .audio-controls {
+        position: relative;
+        left: 8rem;
+    }
+
+    .last-icon {
+        position: relative;
+        left: 9rem;
+    }
+}
+
+@media screen and (max-width:1185px) {
+    .music-icons {
+        position: relative;
+        left: -1rem;
+    }
+
+    .audio-controls {
+        position: relative;
+        left: 5rem;
+    }
+
+    .last-icon {
+        position: relative;
+        left: 6rem;
     }
 }
