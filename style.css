@@ -1083,3 +1083,32 @@ Responsive
         left: 0.1rem;
     }
 }
+
+@media screen and (max-width:1040px) {
+    .music-icons {
+        position: relative;
+        left: -10rem;
+    }
+
+    .music-audio {
+        position: relative;
+        left: -2.5rem;
+        width: 18rem;
+        top: 0.5rem;
+        height: 3px;
+    }
+
+    .music-time span:nth-child(1) {
+        position: relative;
+        left: -4rem;
+        top: -0.2rem;
+        font-size: 0.6rem;
+    }
+
+    .music-time span:nth-child(2) {
+        position: relative;
+        left: 12.5rem;
+        top: -0.2rem;
+        font-size: 0.6rem;
+    }
+}
