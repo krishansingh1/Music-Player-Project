@@ -1019,3 +1019,7 @@ Responsive
         left: 6rem;
     }
 }
+
+@media screen and (max-width:1135px){
+    
+}
