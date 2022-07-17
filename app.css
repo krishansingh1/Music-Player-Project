@@ -906,6 +906,10 @@ Footer Section
     position: relative;
     left: 6.5rem;
   }
+
+  .new-res-style-4 {
+    font-size: 0.6rem;
+  }
 }
 
 @media screen and (max-width:940px) {
@@ -958,7 +962,94 @@ Footer Section
   }
 }
 
-@media screen and (max-width:px) 
+@media screen and (max-width: 869px) {
+  main {
+    width: 32.5rem;
+  }
+
+  .more-left {
+    position: relative;
+    left: 10rem;
+  }
+
+  .new-res-style-5 {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .song-icons {
+    position: relative;
+    left: 10rem;
+  }
+
+  .song-icons-2 {
+    position: relative;
+    left: 4rem;
+  }
+
+  .song-icons-3 {
+    position: relative;
+    left: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 846px) {
+  main {
+    width: 31.5rem;
+  }
+
+  .font-styles-2 {
+    position: relative;
+    top: -1rem;
+  }
+
+  .font-styles-3 {
+    position: relative;
+    top: -1.5rem;
+  }
+}
+
+@media screen and (max-width: 822px) {
+  main {
+    width: 31rem;
+  }
+
+  .more-left {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .song-icons {
+    position: relative;
+    left: 8rem;
+  }
+
+  .song-icons-2 {
+    position: relative;
+    left: 2rem;
+  }
+
+  .song-icons-3 {
+    position: relative;
+    left: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 811px){
+  main{
+    width: 29.5rem;
+  }
+
+  #artist-info{
+    height: 19rem;
+  }
+}
+
+@media screen and (max-width: 775px){
+  main{
+    width: 28rem;
+  }
+}
 /*
 ==================
 Responsive Footer
