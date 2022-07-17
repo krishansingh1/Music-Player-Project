@@ -858,6 +858,107 @@ Footer Section
   }
 }
 
+@media screen and (max-width:1030px) {
+  main {
+    width: 38rem;
+  }
+
+  .aside-section-artist-info {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .aside-section-song-info {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .aside-section-img {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width:975px) {
+  main {
+    width: 36.5rem;
+  }
+
+  #artist-info {
+    height: 17.5rem;
+  }
+
+  #artist-info img {
+    width: 16rem;
+    height: 17.5rem;
+  }
+
+  .song-icons {
+    position: relative;
+    left: 14rem;
+  }
+
+  .song-icons-2 {
+    position: relative;
+    left: 8rem;
+  }
+
+  .song-icons-3 {
+    position: relative;
+    left: 6.5rem;
+  }
+}
+
+@media screen and (max-width:940px) {
+  main {
+    width: 35rem;
+  }
+
+  .song-time {
+    position: relative;
+    left: 5rem;
+  }
+
+  .song-time-2 {
+    position: relative;
+    left: -1rem;
+  }
+
+  .song-time-3 {
+    position: relative;
+    left: -2.5rem;
+  }
+
+  .song-icons {
+    position: relative;
+    left: 12rem;
+  }
+
+  .song-icons-2 {
+    position: relative;
+    left: 6rem;
+  }
+
+  .song-icons-3 {
+    position: relative;
+    left: 4.5rem;
+  }
+}
+
+@media screen and (max-width:905px) {
+  main {
+    width: 33.5rem;
+  }
+
+  #artist-info {
+    height: 18rem;
+  }
+
+  #artist-info img {
+    height: 18rem;
+  }
+}
+
+@media screen and (max-width:px) 
 /*
 ==================
 Responsive Footer
