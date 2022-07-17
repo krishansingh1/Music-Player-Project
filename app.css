@@ -848,6 +848,16 @@ Footer Section
   }
 }
 
+@media screen and (max-width:1040px) {
+  .font-styles-2 {
+    font-size: 0.7rem;
+  }
+
+  .font-styles-3 {
+    font-size: 0.65rem;
+  }
+}
+
 /*
 ==================
 Responsive Footer
