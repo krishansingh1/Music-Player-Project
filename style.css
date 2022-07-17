@@ -1146,3 +1146,17 @@ Responsive
         left: -5rem;
     }
 }
+
+@media screen and (max-width:968px){
+    .footer-icons {
+        position: relative;
+        top: 0.2rem;
+        left: -5rem;
+        font-size: 0.3rem;
+    }
+
+    .last-icon{
+        position: relative;
+        left: -1rem;
+    }
+}
