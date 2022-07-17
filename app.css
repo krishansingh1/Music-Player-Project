@@ -570,12 +570,283 @@ Footer Section
     position: relative;
     left: -2.8rem;
   }
+
+  .artist-name-style-2 {
+    position: relative;
+    left: -6rem;
+  }
+
+  .artist-name-style-3 {
+    position: relative;
+    left: -7.5rem;
+  }
+
+  .aside-song-2-info {
+    position: relative;
+    left: -4.3rem;
+  }
 }
 
+@media screen and (max-width:1270px) {
+  .more-left {
+    position: relative;
+    left: 18rem;
+  }
 
+  .song-icons {
+    position: relative;
+    left: 27rem;
+  }
 
+  .song-icons-2 {
+    position: relative;
+    left: 21rem;
+  }
 
+  .song-icons-3 {
+    position: relative;
+    left: 19.5rem;
+  }
+}
 
+@media screen and (max-width:1240px) {
+  .song-icons {
+    position: relative;
+    left: 25rem;
+  }
+
+  .song-icons-2 {
+    position: relative;
+    left: 19rem;
+  }
+
+  .song-icons-3 {
+    position: relative;
+    left: 17.5rem;
+  }
+}
+
+@media screen and (max-width:1240px) {
+  .aside-song-info {
+    position: relative;
+    left: -4.9rem;
+  }
+
+  .aside-song-2-info {
+    position: relative;
+    left: -3.5rem;
+  }
+
+  .aside-song-3-info {
+    position: relative;
+    left: -4.3rem;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .more-left {
+    position: relative;
+    left: 16rem;
+  }
+}
+
+@media screen and (max-width:1180px) {
+  .song-icons {
+    position: relative;
+    left: 23rem;
+  }
+
+  .song-icons-2 {
+    position: relative;
+    left: 17rem;
+  }
+
+  .song-icons-3 {
+    position: relative;
+    left: 15.5rem;
+  }
+}
+
+@media screen and (max-width:1140px) {
+  .more-left {
+    position: relative;
+    left: 14rem;
+  }
+
+  .aside-song-info {
+    position: relative;
+    left: -3.9rem;
+  }
+
+  .aside-song-2-info {
+    position: relative;
+    left: -2.5rem;
+  }
+
+  .aside-song-3-info {
+    position: relative;
+    left: -3.3rem;
+  }
+
+  .aside-section-artist-info {
+    position: relative;
+    left: 0.1rem;
+  }
+
+  .aside-section-artist-name {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width:1135px) {
+
+  /* .song-number{
+    position: relative;
+    left: 1rem;
+  } */
+  .song-img {
+    /* position: relative; */
+    margin-left: 2rem;
+  }
+
+  .artist-song-style {
+    position: relative;
+    left: -2rem;
+  }
+
+  .artist-name-style {
+    position: relative;
+    left: -4.8rem;
+  }
+
+  .artist-name-style-2 {
+    position: relative;
+    left: -8rem;
+  }
+
+  .artist-name-style-3 {
+    position: relative;
+    left: -9.5rem;
+  }
+
+  .song-icons {
+    position: relative;
+    left: 20rem;
+  }
+
+  .song-icons-2 {
+    position: relative;
+    left: 14rem;
+  }
+
+  .song-icons-3 {
+    position: relative;
+    left: 12.5rem;
+  }
+
+  .new-res-style {
+    position: relative;
+    left: -1rem;
+  }
+
+  .new-res-style-2 {
+    position: relative;
+    left: -1rem;
+  }
+}
+
+@media screen and (max-width:1135px) {
+  .song-icons {
+    position: relative;
+    left: 18rem;
+  }
+
+  .song-icons-2 {
+    position: relative;
+    left: 12rem;
+  }
+
+  .song-icons-3 {
+    position: relative;
+    left: 10.5rem;
+  }
+}
+
+@media screen and (max-width:1085px) {
+  .song-img {
+    margin-left: 4.5rem;
+  }
+
+  .artist-song-style {
+    position: relative;
+    left: -5rem;
+  }
+
+  .artist-name-style {
+    position: relative;
+    left: -7.8rem;
+  }
+
+  .artist-name-style-2 {
+    position: relative;
+    left: -11.2rem;
+  }
+
+  .artist-name-style-3 {
+    position: relative;
+    left: -12.5rem;
+  }
+
+  .song-icons {
+    position: relative;
+    left: 15rem;
+  }
+
+  .song-icons-2 {
+    position: relative;
+    left: 9rem;
+  }
+
+  .song-icons-3 {
+    position: relative;
+    left: 7.5rem;
+  }
+
+  .song-number {
+    position: relative;
+    left: -0.1rem;
+  }
+
+  .new-res-style {
+    position: relative;
+    left: -2.5rem;
+  }
+
+  .new-res-style-2 {
+    position: relative;
+    left: -2.4rem;
+  }
+
+  .aside-section-artist-name {
+    font-size: 0.7rem;
+  }
+
+  .more-left {
+    position: relative;
+    left: 12rem;
+  }
+
+  .aside-heading h2 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:1055px) {
+  #aside-section-2 {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 
 /*
 ==================
