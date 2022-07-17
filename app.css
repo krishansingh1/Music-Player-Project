@@ -529,12 +529,32 @@ Footer Section
 }
 
 @media screen and (max-width:1310px) {
-  .social-icons {
+  .song-icons {
     position: relative;
-    left: 10rem;
+    left: 28rem;
+  }
+
+  .song-icons-2 {
+    position: relative;
+    left: 21rem;
+  }
+
+  .song-icons-3 {
+    position: relative;
+    left: 19.5rem;
   }
 }
 
+@media screen and (max-width:1308px) {
+  .song-icons-2 {
+    position: relative;
+    left: 22rem;
+  }
+  .song-icons-3{
+    position: relative;
+    left: ;
+  }
+}
 
 
 
