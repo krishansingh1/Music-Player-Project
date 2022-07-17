@@ -1050,6 +1050,12 @@ Footer Section
     width: 28rem;
   }
 }
+
+@media screen and (max-width: 775px){
+  main{
+    width: 30rem;
+  }
+}
 /*
 ==================
 Responsive Footer
