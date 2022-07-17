@@ -1481,9 +1481,98 @@ Responsive Navbar
 ==================
 */
 
-@media screen and (max-width:1003px){
-    .search-bar{
-        width: 10rem;
-        height: 5rem;
+@media screen and (max-width:1003px) {
+    .search-bar {
+        margin-top: 2rem;
+        width: 15rem;
+        height: 2.5rem;
+    }
+
+    .search-bar i:nth-child(3) {
+        position: relative;
+        top: -1rem;
+        margin-left: 13rem;
+    }
+
+    .bell-icon {
+        position: relative;
+        top: -0.7rem;
+    }
+
+    .header-img {
+        position: relative;
+        top: -0.7rem;
+    }
+}
+
+
+@media screen and (max-width:874px) {
+    .adjust-height p {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .search-bar {
+        position: relative;
+        left: -4rem;
+    }
+
+    .bell-icon {
+        position: relative;
+        top: -0.7rem;
+        left: -1.8rem;
+    }
+
+    .header-img {
+        position: relative;
+        top: -4.5rem;
+        left: 22rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .bell-icon {
+        position: relative;
+        top: -4.5rem;
+        left: 15rem;
+    }
+
+    .header-img {
+        position: relative;
+        top: -4.5rem;
+        left: 12rem;
+    }
+}
+
+@media screen and (max-width:690px) {
+    .bell-icon {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .header-img {
+        position: relative;
+        top: -4.5rem;
+        left: 10rem;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .header-img {
+        position: relative;
+        top: -4.5rem;
+        left: 8rem;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .search-bar {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header-img {
+        position: relative;
+        top: -4.5rem;
+        left: 5rem;
     }
 }
