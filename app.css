@@ -518,3 +518,538 @@ Footer Section
   top: -0.1rem;
   color: white;
 }
+
+
+/*
+==================
+Responsive Footer
+==================
+*/
+
+/*Footer Section*/
+@media screen and (max-width:1308px) {
+  .artist-song-style {
+    font-size: 0.8rem;
+  }
+
+  .font-styles {
+    font-size: 0.6rem;
+  }
+
+  .footer-icons span i {
+    font-size: 0.8rem;
+  }
+
+  .music-icons {
+    font-size: 0.7rem;
+  }
+
+  .music-icons span:nth-child(3) {
+    font-size: 1.5rem;
+    margin-top: -1rem;
+  }
+
+  .music-audio {
+    position: relative;
+    left: -3.5rem;
+    width: 20rem;
+    top: 0.5rem;
+    height: 1px;
+  }
+
+  .music-time span:nth-child(1) {
+    position: relative;
+    left: -5.5rem;
+    top: -0.2rem;
+    font-size: 0.6rem;
+  }
+
+  .music-time span:nth-child(2) {
+    position: relative;
+    left: 14rem;
+    top: -0.2rem;
+    font-size: 0.6rem;
+  }
+
+  .audio-controls {
+    position: relative;
+    left: 10rem;
+    font-size: 0.7rem;
+  }
+
+  .volume-control {
+    width: 3rem;
+    height: 1px;
+  }
+
+  .last-icon {
+    position: relative;
+    left: 11rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width:1220px) {
+
+  .audio-controls {
+    position: relative;
+    left: 8rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: 9rem;
+  }
+}
+
+@media screen and (max-width:1185px) {
+  .music-icons {
+    position: relative;
+    left: -1rem;
+  }
+
+  .audio-controls {
+    position: relative;
+    left: 5rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: 6rem;
+  }
+}
+
+@media screen and (max-width:1135px) {
+  .song-img {
+    position: relative;
+    left: -2rem;
+  }
+
+  .song-details {
+    position: relative;
+    left: -2rem;
+  }
+
+  .footer-icons {
+    position: relative;
+    left: -2rem;
+  }
+
+  .music-icons {
+    position: relative;
+    left: -5rem;
+  }
+
+  .audio-controls {
+    position: relative;
+    left: 2rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: 3rem;
+  }
+}
+
+@media screen and (max-width:1085px) {
+  .song-img {
+    position: relative;
+    left: -5rem;
+  }
+
+  .song-details {
+    position: relative;
+    left: -5rem;
+  }
+
+  .footer-icons {
+    position: relative;
+    left: -6rem;
+  }
+
+  .music-icons {
+    position: relative;
+    left: -7rem;
+  }
+
+  .audio-controls {
+    position: relative;
+    left: -0.9rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: 0.1rem;
+  }
+}
+
+@media screen and (max-width:1040px) {
+  .music-icons {
+    position: relative;
+    left: -10rem;
+  }
+
+  .music-audio {
+    position: relative;
+    left: -2.5rem;
+    width: 18rem;
+    top: 0.5rem;
+    height: 3px;
+  }
+
+  .music-time span:nth-child(1) {
+    position: relative;
+    left: -4rem;
+    top: -0.2rem;
+    font-size: 0.6rem;
+  }
+
+  .music-time span:nth-child(2) {
+    position: relative;
+    left: 12.5rem;
+    top: -0.2rem;
+    font-size: 0.6rem;
+  }
+
+  .volume-control {
+    position: relative;
+    left: -0.5rem;
+    width: 2rem;
+  }
+
+  .audio-controls {
+    position: relative;
+    left: -2rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: -2rem;
+  }
+}
+
+@media screen and (max-width:984px) {
+  .audio-controls {
+    position: relative;
+    left: -5rem;
+  }
+
+  .volume-control {
+    position: relative;
+    left: -0.5rem;
+    width: 1rem;
+  }
+
+  .volume-control {
+    position: relative;
+    top: -1rem;
+    left: 5rem;
+    width: 2rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: -4rem;
+  }
+}
+
+@media screen and (max-width:968px) {
+  .footer-icons {
+    position: relative;
+    top: 0.2rem;
+    left: -5rem;
+    font-size: 0.3rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: -4rem;
+  }
+}
+
+@media screen and (max-width:920px) {
+  .song-details {
+    position: relative;
+    top: -0.4rem;
+  }
+
+  .footer-icons {
+    position: relative;
+    top: -0.3rem;
+    left: -6rem;
+  }
+
+  .footer-icons span i {
+    font-size: 0.5rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: -3rem;
+  }
+
+  .music-icons {
+    position: relative;
+    left: -12rem;
+  }
+
+  .audio-controls {
+    position: relative;
+    left: -5rem;
+  }
+
+  .volume-control {
+    width: 2rem;
+  }
+}
+
+@media screen and (max-width:890px) {
+  .audio-controls span:nth-child(3) {
+    position: relative;
+    top: -0.75rem;
+    left: 3.5rem;
+  }
+
+  .volume-control {
+    position: relative;
+    left: 3rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: -2.5rem;
+  }
+}
+
+@media screen and (max-width:860px) {
+  .audio-controls {
+    position: relative;
+    left: -8rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: -4rem;
+  }
+}
+
+@media screen and (max-width:840px) {
+  .volume-control {
+    position: relative;
+    top: -1.7rem;
+    left: 5rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: -4rem;
+  }
+}
+
+@media screen and (max-width:826px) {
+  .audio-controls {
+    position: relative;
+    left: -10rem;
+  }
+
+  .audio-controls span:nth-child(2) {
+    position: relative;
+    top: -0.7rem;
+    left: 1.3rem;
+  }
+
+  .audio-controls span:nth-child(3) {
+    position: relative;
+    top: -1.5rem;
+    left: 3rem;
+  }
+
+  .volume-control {
+    position: relative;
+    top: -2.5rem;
+  }
+}
+
+@media screen and (max-width:750px) {
+  #aside-container {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  #playlist-section {
+    display: flex;
+  }
+
+  .song-playlist img {
+    display: inline-block;
+  }
+
+  .song-playlist img:nth-child(1) {
+    width: 12rem;
+  }
+
+  .song-playlist img:nth-child(2) {
+    width: 12rem;
+  }
+
+  .song-playlist img:nth-child(3) {
+    width: 12rem;
+  }
+
+  .music-player-sections {
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .song-img {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .song-details {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .footer-icons {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .audio-controls {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .last-icon {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width:620px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .music-icons {
+    position: relative;
+    left: -15rem;
+  }
+}
+
+@media screen and (max-width:612px) {
+  .responsive-width-height {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width:520px) {
+  .music-icons {
+    position: relative;
+    left: -19rem;
+  }
+}
+
+/*
+==================
+Responsive Navbar
+==================
+*/
+
+@media screen and (max-width:1003px) {
+  .search-bar {
+    margin-top: 2rem;
+    width: 15rem;
+    height: 2.5rem;
+  }
+
+  .search-bar i:nth-child(3) {
+    position: relative;
+    top: -1rem;
+    margin-left: 13rem;
+  }
+
+  .bell-icon {
+    position: relative;
+    top: -0.7rem;
+  }
+
+  .header-img {
+    position: relative;
+    top: -0.7rem;
+  }
+}
+
+
+@media screen and (max-width:874px) {
+  .adjust-height p {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .search-bar {
+    position: relative;
+    left: -4rem;
+  }
+
+  .bell-icon {
+    position: relative;
+    top: -0.7rem;
+    left: -1.8rem;
+  }
+
+  .header-img {
+    position: relative;
+    top: -4.5rem;
+    left: 22rem;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .bell-icon {
+    position: relative;
+    top: -4.5rem;
+    left: 15rem;
+  }
+
+  .header-img {
+    position: relative;
+    top: -4.5rem;
+    left: 12rem;
+  }
+}
+
+@media screen and (max-width:690px) {
+  .bell-icon {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .header-img {
+    position: relative;
+    top: -4.5rem;
+    left: 10rem;
+  }
+}
+
+@media screen and (max-width:640px) {
+  .header-img {
+    position: relative;
+    top: -4.5rem;
+    left: 8rem;
+  }
+}
+
+@media screen and (max-width:580px) {
+  .search-bar {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .header-img {
+    position: relative;
+    top: -4.5rem;
+    left: 5rem;
+  }
+}
