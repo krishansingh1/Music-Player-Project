@@ -555,7 +555,18 @@ Footer Section
     position: relative;
     left: 20.5rem;
   }
+
+  .song-time-2 {
+    position: relative;
+    left: 4rem;
+  }
+
+  .song-time-3 {
+    position: relative;
+    left: 2.5rem;
+  }
 }
+
 
 
 
