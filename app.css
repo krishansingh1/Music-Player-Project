@@ -1063,7 +1063,7 @@ Footer Section
 
 @media screen and (max-width: 580px) {
   main {
-    margin-left: 1rem;
+    margin-left: 1rem
   }
 }
 
@@ -1169,6 +1169,11 @@ Responsive Footer
 @media screen and (max-width:1135px) {
   .song-img {
     position: relative;
+    left: -2rem;
+  }
+
+  .new-res-style-7 {
+    position: relative;
     left: -4rem;
   }
 
@@ -1204,10 +1209,32 @@ Responsive Footer
   }
 }
 
+@media screen and (max-width:1120px) {
+  .music-icons {
+    position: relative;
+    left: -8rem;
+  }
+
+  .audio-controls {
+    position: relative;
+    left: -5rem;
+  }
+
+  .last-icon {
+    position: relative;
+    left: -4rem;
+  }
+}
+
 @media screen and (max-width:1085px) {
   .song-img {
     position: relative;
     left: -5rem;
+  }
+
+  .new-res-style-7 {
+    position: relative;
+    left: -10rem;
   }
 
   .song-details {
@@ -1215,31 +1242,49 @@ Responsive Footer
     left: -5rem;
   }
 
+  .new-res-style-6 {
+    position: relative;
+    left: -5rem;
+  }
+
   .footer-icons {
     position: relative;
-    left: -6rem;
+    left: -12rem;
   }
 
   .music-icons {
     position: relative;
-    left: -7rem;
+    left: -12rem;
   }
 
   .audio-controls {
     position: relative;
-    left: -0.9rem;
+    left: -6rem;
+  }
+
+  .volume-control {
+    position: relative;
+    top: -1rem;
+    left: 5rem;
   }
 
   .last-icon {
     position: relative;
-    left: 0.1rem;
+    left: -5rem;
+  }
+}
+
+@media screen and (max-width:1060px) {
+  .last-icon {
+    position: relative;
+    left: -3rem;
   }
 }
 
 @media screen and (max-width:1040px) {
   .music-icons {
     position: relative;
-    left: -10rem;
+    left: -13rem;
   }
 
   .music-audio {
@@ -1265,26 +1310,24 @@ Responsive Footer
   }
 
   .volume-control {
-    position: relative;
-    left: -0.5rem;
     width: 2rem;
   }
 
   .audio-controls {
     position: relative;
-    left: -2rem;
+    left: -5rem;
   }
 
   .last-icon {
     position: relative;
-    left: -2rem;
+    left: -3rem;
   }
 }
 
 @media screen and (max-width:984px) {
   .audio-controls {
     position: relative;
-    left: -5rem;
+    left: -7rem;
   }
 
   .volume-control {
@@ -1306,7 +1349,7 @@ Responsive Footer
   }
 }
 
-@media screen and (max-width:968px) {
+@media screen and (max-width:970px) {
   .footer-icons {
     position: relative;
     top: 0.2rem;
@@ -1317,6 +1360,22 @@ Responsive Footer
   .last-icon {
     position: relative;
     left: -4rem;
+  }
+
+  .audio-controls {
+    position: relative;
+    left: -7rem;
+  }
+
+  .audio-controls span:nth-child(3) {
+    position: relative;
+    top: -0.8rem;
+    left: 3.5rem;
+  }
+
+  .volume-control{
+    position: relative;
+    left: 3rem;
   }
 }
 
@@ -1348,7 +1407,7 @@ Responsive Footer
 
   .audio-controls {
     position: relative;
-    left: -5rem;
+    left: -7rem;
   }
 
   .volume-control {
