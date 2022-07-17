@@ -519,6 +519,26 @@ Footer Section
   color: white;
 }
 
+/*Responsive */
+
+@media screen and (max-width:1345px) {
+  .more-left {
+    position: relative;
+    left: 20rem;
+  }
+}
+
+@media screen and (max-width:1310px) {
+  .social-icons {
+    position: relative;
+    left: 10rem;
+  }
+}
+
+
+
+
+
 
 /*
 ==================
