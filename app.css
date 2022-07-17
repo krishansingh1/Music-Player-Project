@@ -565,6 +565,11 @@ Footer Section
     position: relative;
     left: 2.5rem;
   }
+
+  .artist-name-style {
+    position: relative;
+    left: -2.8rem;
+  }
 }
 
 
